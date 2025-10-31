@@ -29,7 +29,8 @@ Package: radxa-firmware-qcs9075
 Architecture: all
 Section: misc
 Priority: optional
-Depends: ${misc:Depends},
+Depends: firmware-qcom-hlosfw,
+         ${misc:Depends},
 Description: Radxa QCS9075 supplemental firmware
  This package contains firmwares for Radxa devices based on
  the QCS9075 SoC that are not shipped by Debian.
